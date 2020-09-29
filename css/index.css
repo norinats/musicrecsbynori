@@ -1,5 +1,10 @@
 body {
+    margin: 0;
     background-color: #374885;
+}
+
+div, h2, h4, p {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 div {
@@ -7,20 +12,17 @@ div {
 }
 
 h2 {
-    font-family: 'Courier New', Courier, monospace;
     margin-top: 5px;
     margin-bottom: 0;
 }
 
 h4 {
-    font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
     font-size: small;
     margin-top: 5%;
 }
@@ -30,11 +32,13 @@ p {
 }
 
 #column-left {
+    margin-left: 10px;
+    margin-bottom: 10px;
     width: 75%;
 }
 
 #column-right {
-    width: 25%;
+    width: 20%;
 }
 
 .song {
@@ -84,4 +88,14 @@ p {
     background-color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
     max-width: 210px;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    background-color: #ffc0d0;
+    width: 100%;
+    font-size: small;
+    left: 0;
+    bottom: 0;
 }
