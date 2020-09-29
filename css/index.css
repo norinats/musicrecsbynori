@@ -1,0 +1,87 @@
+body {
+    background-color: #374885;
+}
+
+div {
+    display: block;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    margin-top: 5%;
+}
+
+.column {
+    float: left;
+}
+
+#column-left {
+    width: 75%;
+}
+
+#column-right {
+    width: 25%;
+}
+
+.song {
+    display: inline-block;
+    max-width: 209px;
+    max-height: 750px;
+    margin-top: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.song p {
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.request {
+    background-color: #b3c7ff;
+}
+
+.recommendation {
+    background-color: #e7d5ff;
+}
+
+.album {
+    height: 200px;
+    width: 200px;
+    border: 3px solid white;
+}
+
+.hashtag {
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
+
+.request-rec {
+    margin-top: 10px;
+}
+
+.request-rec li a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 210px;
+}

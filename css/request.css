@@ -1,0 +1,34 @@
+body {
+    background-color: #374885;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+form {
+    width: 100%;
+    display: inline-block;
+}
+
+select, input, textarea {
+    width: 75%;
+    padding: 7px 10px;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+textarea {
+    height: 25%;
+}
+
+input[type=submit] {
+    width: 10%;
+}
+
+label {
+    color: antiquewhite;
+    margin-top: 10px;
+}
