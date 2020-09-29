@@ -1,5 +1,6 @@
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
     </head>
 
 	<body>

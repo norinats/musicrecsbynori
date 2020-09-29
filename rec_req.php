@@ -22,5 +22,4 @@
                 <li><input type="submit" value="Submit"></li>
             </ul>
         </form>
-    </body>
-</html>
+<?php require_once "footer.php"; ?>

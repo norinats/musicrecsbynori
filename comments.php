@@ -4,5 +4,4 @@
     <?php require_once "header.php"; ?>
 
         song comments page
-    </body>
-</html>
+    <?php require_once "footer.php"; ?>

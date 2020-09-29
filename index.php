@@ -63,10 +63,4 @@
         </div>
         </div>
         
-        <div class="footer">
-            &#169; Nori Natsuhara
-        </div>
-	</body>
-
-
-</html>
+        <?php require_once "footer.php"; ?>

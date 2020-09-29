@@ -89,13 +89,3 @@ p {
     font-family: 'Courier New', Courier, monospace;
     max-width: 210px;
 }
-
-.footer {
-    position: fixed;
-    text-align: center;
-    background-color: #ffc0d0;
-    width: 100%;
-    font-size: small;
-    left: 0;
-    bottom: 0;
-}
