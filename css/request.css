@@ -29,6 +29,7 @@ textarea {
 
 input[type=submit] {
     width: 10%;
+    min-width: 50px;
 }
 
 label {
