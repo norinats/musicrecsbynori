@@ -3,6 +3,43 @@ body {
     background-color: #374885;
 }
 
+form {
+    display: block;
+}
+
 textarea {
+    margin: 10px;
     width: 75%;
+    background-color: antiquewhite;
+    height: 10%
+}
+
+input[type=submit] {
+    margin-left: 10px;
+}
+
+.song-profile {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #b3c7ff;
+    margin: 10px;
+    padding: 5px;
+    min-height: 160px;
+    max-width: 75%;
+}
+
+.song-profile h4 {
+    font-style: italic;
+    margin: 0;
+}
+
+.song-profile h2 {
+    margin: 0;
+}
+
+.song-profile img {
+    float: left;
+    height: 150px;
+    width: 150px;
+    border: 3px solid white;
+    margin-right: 5px;
 }
