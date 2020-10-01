@@ -10,6 +10,7 @@ form {
 textarea, input {
     font-family: 'Courier New', Courier, monospace;
     background-color: antiquewhite;
+    border-radius: 4px;
 }
 
 textarea {
@@ -31,6 +32,7 @@ input[type=submit] {
     padding: 5px;
     min-height: 160px;
     max-width: 75%;
+    border-radius: 4px;
 }
 
 .song-profile h4 {
@@ -53,4 +55,17 @@ input[type=submit] {
 .comments-table img {
     height: 50px;
     width: 50px;
+}
+
+.comments-table {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #EEEEEE;
+    margin: 10px;
+    border-radius: 4px;
+    width: 75%;
+}
+
+.comments-table td {
+    border-bottom: 5px solid #374885;
+    border-collapse: collapse;
 }

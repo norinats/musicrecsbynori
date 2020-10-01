@@ -2,6 +2,7 @@
 	<head>
 		<link rel="icon" type="image/png" href="images/favicon.png">
 		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
 	</head>
 
 	<body>
@@ -30,7 +31,4 @@
 			</div>
 		</div>
 
-	</body>
-
-
-</html>
+<?php require_once "footer.php"?>
