@@ -1,4 +1,4 @@
 <?php
-    header("Location: http://musicrecsbynori/");
+    header("Location: https://glacial-wave-58084.herokuapp.com");
     exit();
 ?>
