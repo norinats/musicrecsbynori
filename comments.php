@@ -17,4 +17,9 @@
             <br>
             <input type="submit" value="post comment">
         </form>
+
+        <table class="comments-table">
+            <tr><td><img src="images/profile_icon.png" alt="profile-pic"></td><td>omg i love this song</td></tr>
+
+        </table>
     <?php require_once "footer.php"; ?>
