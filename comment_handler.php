@@ -8,7 +8,7 @@
     $comment = $_POST['newComment'];
     $user = $_SESSION['userID'];
 
-    if (!$_SESSION['authenticated']) {
+    if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
         $_SESSION['comment-err'] = "**You must be logged in to comment";
         header("Location: comments.php?id=".$songID);
         exit();

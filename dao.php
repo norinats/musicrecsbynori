@@ -2,16 +2,16 @@
     require_once 'KLogger.php';
 
     class dao {
-        private $host = "localhost";
-        private $db = "musicrecs";
-        private $user = "nnats";
-        private $pass = "password";
+        // private $host = "localhost";
+        // private $db = "musicrecs";
+        // private $user = "nnats";
+        // private $pass = "password";
 
         //mysql --user="bd104bf11f6598" --password="0a75d9d2" heroku_f3cb8172441e4c8 --host="us-cdbr-east-02.cleardb.com"
-        // private $host = "us-cdbr-east-02.cleardb.com";
-        // private $db = "heroku_f3cb8172441e4c8";
-        // private $user = "bd104bf11f6598";
-        // private $pass = "0a75d9d2";
+        private $host = "us-cdbr-east-02.cleardb.com";
+        private $db = "heroku_f3cb8172441e4c8";
+        private $user = "bd104bf11f6598";
+        private $pass = "0a75d9d2";
         private $logger;
 
         public function __construct () {
@@ -106,7 +106,6 @@
             $q->bindParam(":songID", $songID, PDO::PARAM_INT);
             $q->execute();
             $ret = $q->fetchAll(PDO::FETCH_ASSOC);
-            $this->logger->LogDebug(print_r($ret, 1));
             return $ret;
         }
 
