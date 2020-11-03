@@ -16,6 +16,8 @@
 
     if(!empty($_POST['newComment'])) {
         $dao->addComment($user, $songID, $comment);
+    } else {
+        
     }
     
     header("Location: comments.php?id=".$songID);

@@ -13,7 +13,7 @@
         <?php
             foreach ($comments as $comment) {
                 $c = htmlspecialchars($comment['comment']);
-                echo "<tr><td><img src='images/profile_icon.png' alt='profile-pic'></td><td>{$c}</td></tr>";
+                echo "<tr><td class='usr-prof-pic'><img src='images/profile_icon.png' alt='profile-pic'></td><td>{$c}</td></tr>";
             }
         ?>
     </table>
