@@ -28,9 +28,9 @@
             exit();
         }
         ?>
-        <h2><?php echo $profile['title']; ?></h2>
-        <h4><?php echo $profile['artist']; ?></h4>
-        <p><?php echo $profile['description']; ?></p>
+        <h2><?php echo htmlspecialchars($profile['title']); ?></h2>
+        <h4><?php echo htmlspecialchars($profile['artist']); ?></h4>
+        <p><?php echo htmlspecialchars($profile['description']); ?></p>
 <?php
     }
 ?>

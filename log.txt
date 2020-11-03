@@ -187,3 +187,15 @@
 2020-11-03 6:24:06 - INFO  --> Get song with song_id: 11 
 2020-11-03 6:24:06 - DEBUG --> getting a connection 
 2020-11-03 6:24:06 - INFO  --> Getting comments for song with id: 11 
+2020-11-03 6:24:39 - DEBUG --> getting a connection 
+2020-11-03 6:24:39 - INFO  --> Getting all the songs in the database 
+2020-11-03 6:26:54 - DEBUG --> getting a connection 
+2020-11-03 6:26:54 - INFO  --> Getting all the songs in the database 
+2020-11-03 6:26:54 - DEBUG --> getting a connection 
+2020-11-03 6:26:54 - INFO  --> Getting all the songs in the database 
+2020-11-03 6:26:56 - DEBUG --> getting a connection 
+2020-11-03 6:26:56 - INFO  --> Get song with song_id: 1 
+2020-11-03 6:26:56 - DEBUG --> getting a connection 
+2020-11-03 6:26:56 - INFO  --> Getting comments for song with id: 1 
+2020-11-03 6:27:20 - DEBUG --> getting a connection 
+2020-11-03 6:27:20 - INFO  --> Getting all the songs in the database 
