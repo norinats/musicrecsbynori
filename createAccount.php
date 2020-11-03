@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <html>
 	<head>
 		<link rel="icon" type="image/png" href="images/favicon.png">
@@ -17,13 +20,22 @@
 			<div class="column col-right">
 				<ul>
 					<li><h2>CREATE ACCOUNT</h2></li>
+					<?php
+						if(isset($_SESSION['created']) && !$_SESSION['created']) {
+							if (isset($_SESSION['bad'])) {
+								foreach ($_SESSION['bad'] as $msg) {
+									echo "<li class='error-msg'> {$msg} </li>";
+								}
+							}
+						}
+					?>
 					<li>
-						<form method="GET" action="createAccount_handler.php">
-							<div>First Name:<input type="text" name="First Name"></div>
-							<div>Last Name:<input type="text" name="Last Name"></div>
-							<div>Username:<input type="text" name="username"></div>
-							<div>Password:<input type="password" name="password"></div>
-							<div>Confirm Password:<input type="password" name="confirm password"></div>
+						<form method="POST" action="createAccount_handler.php">
+							<div><label for="fname">First Name:</label><input type="text" id="fname" name="fname" required></div>
+							<div><label for="lname">Last Name:</label><input type="text" id="lname" name="lname"></div>
+							<div><label for="username">Username:</label><input type="text" id="username" name="username" required></div>
+							<div><label for="password">Password:</label><input type="password" id="password" name="password" required></div>
+							<div><label for="confirm-pw">Confirm Password:</label><input type="password" id="confirm-pw" name="confirm-pw" required></div>
 							<div><input type="submit" value="Create Account"></div>
 						</form>
 					</li>

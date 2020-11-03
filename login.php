@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <html>
 	<head>
 		<link rel="icon" type="image/png" href="images/favicon.png">
@@ -19,10 +22,19 @@
 			<div class="column col-right">
 				<ul>
 					<li><h2>LOGIN</h2></li>
+					<?php
+						if (isset($_SESSION['authenticated']) && !$_SESSION['authenticated']) {
+							if (isset($_SESSION['loginMessage'])) {
+								$msg = $_SESSION['loginMessage'];
+								echo "<li id='error-msg'>{$msg}</li>";
+							}
+							//echo "<li id='error-msg'>**username or password incorrect</li>";
+						}
+					?>
 					<li>
-						<form method="GET" action="login_handler.php">
-							<div>Username:<input type="text" name="username"></div>
-							<div>Password:<input type="password" name="password"></div>
+						<form method="POST" action="login_handler.php">
+							<div><label for="username">Username:</label><input type="text" id="username" name="username"></div>
+							<div><label for="password">Password:</label><input type="password" id="password" name="password"></div>
 							<div><input type="submit" value="Login"></div>
 						</form>
 					</li>
