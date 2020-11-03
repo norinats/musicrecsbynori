@@ -16,8 +16,12 @@
         </div>
         <div>
             <?php
-                if (isset($_SESSION['authenticated']) && !$_SESSION['authenticated'] && !empty($_SESSION['comment-err'])) {
+                if (!isset($_SESSION['authenticated']) && !empty($_SESSION['comment-err'])) {
                     echo print_r($_SESSION['comment-err'], 1);
+                    unset($_SESSION['comment-err']);
+                } elseif (isset($_SESSION['authenticated']) && !$_SESSION['authenticated'] && !empty($_SESSION['comment-err'])) {
+                    echo print_r($_SESSION['comment-err'], 1);
+                    unset($_SESSION['comment-err']);
                 }
             ?>
         </div>
