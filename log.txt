@@ -154,3 +154,36 @@
 2020-11-03 5:09:46 - INFO  --> Getting comments for song with id: 1 
 2020-11-03 5:09:52 - DEBUG --> getting a connection 
 2020-11-03 5:09:52 - INFO  --> Getting all the songs in the database 
+2020-11-03 5:58:40 - DEBUG --> getting a connection 
+2020-11-03 5:58:40 - INFO  --> Getting all the songs in the database 
+2020-11-03 5:58:41 - DEBUG --> getting a connection 
+2020-11-03 5:58:41 - INFO  --> Getting all the songs in the database 
+2020-11-03 6:03:02 - DEBUG --> getting a connection 
+2020-11-03 6:03:03 - INFO  --> Logging in user [nnats] 
+2020-11-03 6:03:59 - DEBUG --> getting a connection 
+2020-11-03 6:03:59 - INFO  --> Logging in user [nnats] 
+2020-11-03 6:04:54 - DEBUG --> getting a connection 
+2020-11-03 6:04:55 - INFO  --> Logging in user [asdfas] 
+2020-11-03 6:05:13 - DEBUG --> getting a connection 
+2020-11-03 6:05:13 - INFO  --> Logging in user [asdfa] 
+2020-11-03 6:05:24 - DEBUG --> getting a connection 
+2020-11-03 6:05:25 - INFO  --> Logging in user [jdoe] 
+2020-11-03 6:05:25 - DEBUG --> getting a connection 
+2020-11-03 6:05:25 - INFO  --> Getting all the songs in the database 
+2020-11-03 6:13:14 - DEBUG --> getting a connection 
+2020-11-03 6:13:14 - INFO  --> Getting all the songs in the database 
+2020-11-03 6:13:24 - DEBUG --> getting a connection 
+2020-11-03 6:13:40 - DEBUG --> getting a connection 
+2020-11-03 6:13:40 - DEBUG --> getting a connection 
+2020-11-03 6:13:40 - INFO  --> creating account [Nori, Nats, nnats] 
+2020-11-03 6:13:40 - DEBUG --> getting a connection 
+2020-11-03 6:13:41 - DEBUG --> getting a connection 
+2020-11-03 6:13:41 - INFO  --> Getting all the songs in the database 
+2020-11-03 6:13:52 - DEBUG --> getting a connection 
+2020-11-03 6:13:52 - INFO  --> Getting all the songs in the database 
+2020-11-03 6:24:04 - DEBUG --> getting a connection 
+2020-11-03 6:24:04 - INFO  --> Getting all the songs in the database 
+2020-11-03 6:24:06 - DEBUG --> getting a connection 
+2020-11-03 6:24:06 - INFO  --> Get song with song_id: 11 
+2020-11-03 6:24:06 - DEBUG --> getting a connection 
+2020-11-03 6:24:06 - INFO  --> Getting comments for song with id: 11 

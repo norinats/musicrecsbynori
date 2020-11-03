@@ -1,5 +1,15 @@
 <?php
 	session_start();
+
+	if (isset($_SESSION['accountForm'])) {
+		$fnamePreset = $_SESSION['accountForm']['fname'];
+		$lnamePreset = $_SESSION['accountForm']['lname'];
+		$unPreset = $_SESSION['accountForm']['username'];
+	} else {
+		$fnamePreset = "";
+		$lnamePreset = "";
+		$unPreset = "";
+	}
 ?>
 <html>
 	<head>
@@ -31,9 +41,9 @@
 					?>
 					<li>
 						<form method="POST" action="createAccount_handler.php">
-							<div><label for="fname">First Name:</label><input type="text" id="fname" name="fname" required></div>
-							<div><label for="lname">Last Name:</label><input type="text" id="lname" name="lname"></div>
-							<div><label for="username">Username:</label><input type="text" id="username" name="username" required></div>
+							<div><label for="fname">First Name:</label><input value="<?php echo $fnamePreset; ?>" type="text" id="fname" name="fname" required></div>
+							<div><label for="lname">Last Name:</label><input value="<?php echo $lnamePreset; ?>" type="text" id="lname" name="lname"></div>
+							<div><label for="username">Username:</label><input value="<?php echo $unPreset; ?>" type="text" id="username" name="username" required></div>
 							<div><label for="password">Password:</label><input type="password" id="password" name="password" required></div>
 							<div><label for="confirm-pw">Confirm Password:</label><input type="password" id="confirm-pw" name="confirm-pw" required></div>
 							<div><input type="submit" value="Create Account"></div>

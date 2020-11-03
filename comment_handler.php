@@ -10,14 +10,16 @@
 
     if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
         $_SESSION['comment-err'] = "**You must be logged in to comment";
+        $_SESSION['commentForm'] = $_POST;
         header("Location: comments.php?id=".$songID);
         exit();
     }
 
     if(!empty($_POST['newComment'])) {
         $dao->addComment($user, $songID, $comment);
+        unset($_SESSION['commentForm']);
     } else {
-        
+        $_SESSION['comment-err'] = "**Please enter a comment";
     }
     
     header("Location: comments.php?id=".$songID);

@@ -1,5 +1,11 @@
 <?php
 	session_start();
+
+	if (isset($_SESSION['loginForm'])) {
+		$unPreset = $_SESSION['loginForm']['username'];
+	} else {
+		$unPreset = "";
+	}
 ?>
 <html>
 	<head>
@@ -33,7 +39,7 @@
 					?>
 					<li>
 						<form method="POST" action="login_handler.php">
-							<div><label for="username">Username:</label><input type="text" id="username" name="username"></div>
+							<div><label for="username">Username:</label><input value="<?php echo $unPreset; ?>" type="text" id="username" name="username"></div>
 							<div><label for="password">Password:</label><input type="password" id="password" name="password"></div>
 							<div><input type="submit" value="Login"></div>
 						</form>

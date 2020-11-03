@@ -32,11 +32,13 @@
 
     if (count($_SESSION['missing']) > 0) {
         $_SESSION['songCreated'] = false;
+        $_SESSION['recForm'] = $_POST;
         header("Location: rec_req.php?=" . $tag);
         exit;
     } else {
         $dao->addSong($tag, $title, $artist, $description, $_SESSION['userID']);
         $_SESSION['songCreated'] = true;
+        unset($_SESSION['recForm']);
         header("Location: index.php");
     }
 ?>

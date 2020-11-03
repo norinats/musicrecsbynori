@@ -17,11 +17,13 @@
         $_SESSION['authenticated'] = true;
         $_SESSION['userID'] = $user['user_id'];
         $_SESSION['username'] = $user['username'];
+        unset($_SESSION['loginForm']);
         header("Location: index.php");
         //header("Location: https://glacial-wave-58084.herokuapp.com");
     } else {
         $_SESSION['loginMessage'] = "**username or password incorrect";
         $_SESSION['authenticated'] = false;
+        $_SESSION['loginForm'] = $_POST;
         header("Location: login.php");
         //header("Location: https://glacial-wave-58084.herokuapp.com/login.php");
         exit;

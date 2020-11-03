@@ -24,6 +24,7 @@
 
     if (count($_SESSION['bad']) > 0) {
         $_SESSION['created'] = false;
+        $_SESSION['accountForm'] = $_POST;
         header("Location: createAccount.php");
         exit;
     } else {
@@ -32,6 +33,7 @@
         $_SESSION['created'] = true;
         $user = $dao->userExists($_POST['username']);
         $_SESSION['userID'] = $user['user_id'];
+        unset($_SESSION['accountForm']);
         header("Location: index.php");
     }
 ?>

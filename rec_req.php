@@ -4,6 +4,18 @@
         header("Location: index.php");
         exit();
     }
+
+    if (isset($_SESSION['recForm'])) {
+        $tag = $_SESSION['recForm']['tag'];
+        $songPreset = $_SESSION['recForm']['song-name'];
+        $artistPreset = $_SESSION['recForm']['artist'];
+        $descrPreset = $_SESSION['recForm']['description'];
+    } else {
+        $tag = $_GET['tag'];
+        $songPreset = "";
+        $artistPreset = "";
+        $descrPreset = "";
+    }
 ?>
 <html>
     <head>
@@ -30,10 +42,10 @@
                 <li>
                     <select name="tag" id="tag">
                         <?php 
-                            if ($_GET['tag'] == 'request') {
+                            if ($tag == 'request') {
                                 echo "<option value='request' selected>request</option>";
                                 echo "<option value='recommend'>recommendation</option>";
-                            } elseif ($_GET['tag'] == 'recommend') {
+                            } elseif ($tag == 'recommend') {
                                 echo "<option value='request'>request</option>";
                                 echo "<option value='recommend' selected>recommendation</option>";
                             } else {
@@ -44,11 +56,11 @@
                     </select>
                 </li>
                 <li><label for="song-name">Song Name:</label></li>
-                <li><input type="text" name="song-name" id="song-name"></li>
+                <li><input value="<?php echo $songPreset; ?>" type="text" name="song-name" id="song-name"></li>
                 <li><label for="artist">Artist:</label></li>
-                <li><input type="text" name="artist" id="artist"></li>
+                <li><input value="<?php echo $artistPreset; ?>" type="text" name="artist" id="artist"></li>
                 <li><label for="description">Description:</label></li>
-                <li><textarea name="description" name="description" id="description"></textarea></li>
+                <li><textarea name="description" id="description"><?php echo $descrPreset; ?></textarea></li>
                 <li><input type="submit" value="Submit"></li>
             </ul>
         </form>
