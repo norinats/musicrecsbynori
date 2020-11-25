@@ -12,6 +12,7 @@
 		<link rel="icon" type="image/png" href="images/favicon.png">
 		<link rel="stylesheet" type="text/css" href="css/login.css">
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
