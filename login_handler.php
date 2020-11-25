@@ -13,7 +13,7 @@
         $user = $dao->login($_POST['username'], $_POST['password']);
     }
 
-    if (($user['username'] == $_POST['username']) && ($user['password'] == $_POST['password'])) {
+    if (!empty($user)) {
         $_SESSION['authenticated'] = true;
         $_SESSION['userID'] = $user['user_id'];
         $_SESSION['username'] = $user['username'];

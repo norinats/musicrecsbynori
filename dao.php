@@ -14,6 +14,8 @@
         private $pass = "0a75d9d2";
         private $logger;
 
+        private $salt = "as23dfj3lf3en";
+
         public function __construct () {
             $this->logger = new KLogger("log.txt", KLogger::DEBUG);
         }
@@ -41,7 +43,9 @@
             $q->bindParam(":fname", $fname);
             $q->bindParam(":lname", $lname);
             $q->bindParam(":un", $username);
-            $q->bindParam(":pw", $password);
+            $pwHash = hash("sha256", $password . $salt);
+            $this->logMessage("created pwhash: " . $pwHash);
+            $q->bindParam(":pw", $pwHash);
             $q->execute();
         }
 
@@ -60,8 +64,10 @@
             $stmt = "select username, password, user_id from user where username=:un AND password=:pw";
             $q = $conn->prepare($stmt);
             $q->bindParam(":un", $username);
-            //$pwHash = hash("sha256", $password);
-            $q->bindParam(":pw", $password);
+            $pwHash = hash("sha256", $password . $salt);
+            $this->logMessage("login pwHash: " . $pwHash);
+            $q->bindParam(":pw", $pwHash);
+            //$q->bindParam(":pw", $password);
             $q->execute();
             return reset($q->fetchAll(PDO::FETCH_ASSOC));
             //return $conn->query($stmt, PDO::FETCH_ASSOC);
