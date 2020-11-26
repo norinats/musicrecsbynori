@@ -185,3 +185,24 @@
 2020-11-25 19:52:50 - DEBUG --> login pwHash: a087a00b4569682ecccabd7c75afe19901846bb3db87d849916de475ade25b03 
 2020-11-25 19:52:50 - DEBUG --> getting a connection 
 2020-11-25 19:52:50 - INFO  --> Getting all the songs in the database 
+2020-11-26 19:48:53 - DEBUG --> getting a connection 
+2020-11-26 19:48:54 - INFO  --> Getting all the songs in the database 
+2020-11-26 19:48:54 - DEBUG --> getting a connection 
+2020-11-26 19:48:54 - INFO  --> Getting all the songs in the database 
+2020-11-26 19:49:10 - DEBUG --> getting a connection 
+2020-11-26 19:49:11 - INFO  --> Getting all the songs in the database 
+2020-11-26 19:49:19 - DEBUG --> getting a connection 
+2020-11-26 19:49:19 - INFO  --> Getting all the songs in the database 
+2020-11-26 19:49:51 - DEBUG --> getting a connection 
+2020-11-26 19:49:52 - INFO  --> Getting all the songs in the database 
+2020-11-26 19:50:15 - DEBUG --> getting a connection 
+2020-11-26 19:50:15 - INFO  --> Logging in user [joshdun] 
+2020-11-26 19:50:15 - DEBUG --> login pwHash: a087a00b4569682ecccabd7c75afe19901846bb3db87d849916de475ade25b03 
+2020-11-26 19:50:15 - DEBUG --> getting a connection 
+2020-11-26 19:50:16 - INFO  --> Getting all the songs in the database 
+2020-11-26 19:51:03 - DEBUG --> getting a connection 
+2020-11-26 19:51:03 - INFO  --> Getting all the songs in the database 
+2020-11-26 19:51:05 - DEBUG --> getting a connection 
+2020-11-26 19:51:05 - INFO  --> Getting all the songs in the database 
+2020-11-26 19:51:12 - DEBUG --> getting a connection 
+2020-11-26 19:51:12 - INFO  --> Getting all the songs in the database 
