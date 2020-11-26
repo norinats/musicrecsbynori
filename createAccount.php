@@ -13,6 +13,8 @@
 ?>
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    	<script src="js/createAccount_validation.js" type="text/javascript"></script>
 		<link rel="icon" type="image/png" href="images/favicon.png">
 		<link rel="stylesheet" type="text/css" href="css/login.css">
 		<link rel="stylesheet" type="text/css" href="css/footer.css">

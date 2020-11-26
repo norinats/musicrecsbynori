@@ -7,9 +7,9 @@
 
     if (isset($_SESSION['recForm'])) {
         $tag = $_SESSION['recForm']['tag'];
-        $songPreset = $_SESSION['recForm']['song-name'];
-        $artistPreset = $_SESSION['recForm']['artist'];
-        $descrPreset = $_SESSION['recForm']['description'];
+        $songPreset = htmlspecialchars($_SESSION['recForm']['song-name']);
+        $artistPreset = htmlspecialchars($_SESSION['recForm']['artist']);
+        $descrPreset = htmlspecialchars($_SESSION['recForm']['description']);
     } else {
         $tag = $_GET['tag'];
         $songPreset = "";
