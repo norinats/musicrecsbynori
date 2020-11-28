@@ -52,3 +52,10 @@ input {
     align-items: center;
 }
 
+label.error {
+    display: block;
+    font-size: small;
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}

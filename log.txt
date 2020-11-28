@@ -206,3 +206,78 @@
 2020-11-26 19:51:05 - INFO  --> Getting all the songs in the database 
 2020-11-26 19:51:12 - DEBUG --> getting a connection 
 2020-11-26 19:51:12 - INFO  --> Getting all the songs in the database 
+2020-11-26 21:02:02 - DEBUG --> getting a connection 
+2020-11-26 21:02:04 - INFO  --> Getting all the songs in the database 
+2020-11-26 21:02:08 - DEBUG --> getting a connection 
+2020-11-26 21:02:08 - INFO  --> Get song with song_id: 1 
+2020-11-26 21:02:08 - DEBUG --> getting a connection 
+2020-11-26 21:02:08 - INFO  --> Getting comments for song with id: 1 
+2020-11-26 21:02:12 - DEBUG --> getting a connection 
+2020-11-26 21:02:14 - INFO  --> Getting all the songs in the database 
+2020-11-26 21:02:16 - DEBUG --> getting a connection 
+2020-11-26 21:02:16 - INFO  --> Getting all the songs in the database 
+2020-11-26 21:02:22 - DEBUG --> getting a connection 
+2020-11-26 21:02:22 - INFO  --> Logging in user [joshdun] 
+2020-11-26 21:02:22 - DEBUG --> login pwHash: a087a00b4569682ecccabd7c75afe19901846bb3db87d849916de475ade25b03 
+2020-11-26 21:02:22 - DEBUG --> getting a connection 
+2020-11-26 21:02:23 - INFO  --> Getting all the songs in the database 
+2020-11-26 21:03:27 - DEBUG --> getting a connection 
+2020-11-26 21:03:28 - INFO  --> User 31 inserting - [tag: recommend, song: WHISTLE, artist: BLACKPINK] into song db 
+2020-11-26 21:03:28 - DEBUG --> getting a connection 
+2020-11-26 21:03:28 - INFO  --> Getting all the songs in the database 
+2020-11-26 21:04:50 - DEBUG --> getting a connection 
+2020-11-26 21:04:52 - INFO  --> Getting all the songs in the database 
+2020-11-26 21:29:20 - DEBUG --> getting a connection 
+2020-11-26 21:29:21 - INFO  --> Getting all the songs in the database 
+2020-11-26 21:30:08 - DEBUG --> getting a connection 
+2020-11-26 21:30:08 - INFO  --> Getting all the songs in the database 
+2020-11-27 18:31:01 - DEBUG --> getting a connection 
+2020-11-27 18:31:01 - INFO  --> Getting all the songs in the database 
+2020-11-27 18:32:05 - DEBUG --> getting a connection 
+2020-11-27 18:32:06 - INFO  --> Getting all the songs in the database 
+2020-11-27 18:32:08 - DEBUG --> getting a connection 
+2020-11-27 18:32:08 - INFO  --> Getting all the songs in the database 
+2020-11-27 18:33:05 - DEBUG --> getting a connection 
+2020-11-27 18:33:05 - INFO  --> Getting all the songs in the database 
+2020-11-28 0:05:08 - DEBUG --> getting a connection 
+2020-11-28 0:05:10 - INFO  --> Getting all the songs in the database 
+2020-11-28 0:05:32 - DEBUG --> getting a connection 
+2020-11-28 0:16:42 - DEBUG --> getting a connection 
+2020-11-28 0:16:42 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:19:05 - DEBUG --> getting a connection 
+2020-11-28 1:19:06 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:19:30 - DEBUG --> getting a connection 
+2020-11-28 1:20:21 - DEBUG --> getting a connection 
+2020-11-28 1:20:21 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:30:36 - DEBUG --> getting a connection 
+2020-11-28 1:30:36 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:30:37 - DEBUG --> getting a connection 
+2020-11-28 1:30:37 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:32:25 - DEBUG --> getting a connection 
+2020-11-28 1:32:26 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:32:55 - DEBUG --> getting a connection 
+2020-11-28 1:32:55 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:37:17 - DEBUG --> getting a connection 
+2020-11-28 1:37:17 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:37:17 - DEBUG --> getting a connection 
+2020-11-28 1:37:17 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:39:20 - DEBUG --> getting a connection 
+2020-11-28 1:39:20 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:39:20 - DEBUG --> getting a connection 
+2020-11-28 1:39:21 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:39:56 - DEBUG --> getting a connection 
+2020-11-28 1:39:56 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:40:19 - DEBUG --> getting a connection 
+2020-11-28 1:40:19 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:41:18 - DEBUG --> getting a connection 
+2020-11-28 1:41:19 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:41:23 - DEBUG --> getting a connection 
+2020-11-28 1:41:23 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:41:49 - DEBUG --> getting a connection 
+2020-11-28 1:41:49 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:44:18 - DEBUG --> getting a connection 
+2020-11-28 1:44:18 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:46:36 - DEBUG --> getting a connection 
+2020-11-28 1:46:36 - INFO  --> Getting all the songs in the database 
+2020-11-28 1:46:36 - DEBUG --> getting a connection 
+2020-11-28 1:46:36 - INFO  --> Getting all the songs in the database 

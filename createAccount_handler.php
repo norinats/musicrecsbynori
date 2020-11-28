@@ -18,7 +18,7 @@
         $_SESSION['bad'][] = "**Password must be at least 8 characters long and have at least one digit and one uppercase";
     }
 
-    if ($_POST['password'] !== $_POST['confirm-pw']) {
+    if ($_POST['password'] !== $_POST['confirmpw']) {
         $_SESSION['bad'][] = "**Passwords do not match";
     }
 

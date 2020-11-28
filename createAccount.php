@@ -2,9 +2,9 @@
 	session_start();
 
 	if (isset($_SESSION['accountForm'])) {
-		$fnamePreset = $_SESSION['accountForm']['fname'];
-		$lnamePreset = $_SESSION['accountForm']['lname'];
-		$unPreset = $_SESSION['accountForm']['username'];
+		$fnamePreset = htmlspecialchars($_SESSION['accountForm']['fname']);
+		$lnamePreset = htmlspecialchars($_SESSION['accountForm']['lname']);
+		$unPreset = htmlspecialchars($_SESSION['accountForm']['username']);
 	} else {
 		$fnamePreset = "";
 		$lnamePreset = "";
@@ -14,6 +14,7 @@
 <html>
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
     	<script src="js/createAccount_validation.js" type="text/javascript"></script>
 		<link rel="icon" type="image/png" href="images/favicon.png">
 		<link rel="stylesheet" type="text/css" href="css/login.css">
@@ -43,12 +44,12 @@
 						}
 					?>
 					<li>
-						<form method="POST" action="createAccount_handler.php">
+						<form method="POST" id="account-form" action="createAccount_handler.php">
 							<div><label for="fname">First Name:</label><input value="<?php echo $fnamePreset; ?>" type="text" id="fname" name="fname" required></div>
 							<div><label for="lname">Last Name:</label><input value="<?php echo $lnamePreset; ?>" type="text" id="lname" name="lname"></div>
 							<div><label for="username">Username:</label><input value="<?php echo $unPreset; ?>" type="text" id="username" name="username" required></div>
 							<div><label for="password">Password:</label><input type="password" id="password" name="password" required></div>
-							<div><label for="confirm-pw">Confirm Password:</label><input type="password" id="confirm-pw" name="confirm-pw" required></div>
+							<div><label for="confirmpw">Confirm Password:</label><input type="password" id="confirmpw" name="confirmpw" required></div>
 							<div><input type="submit" value="Create Account"></div>
 						</form>
 					</li>
